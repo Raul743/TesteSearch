@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["es5", "es6", "es2016", "ES2018", "dom"],
+    "esModuleInterop": true,
+    "target": "ES2018",
+    "module": "commonjs",
+    "outDir": "build",
+    "rootDir": "src",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true
+  },
+  "exclude": ["node_modules/**/*", "__test__/**/*"]
+}
